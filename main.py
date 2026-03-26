@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 """
 NodBoard - Main Application Entry Point
 - No profile popup, opens directly
@@ -964,4 +964,4 @@ root.after(1000, update_fps)
 
 root.mainloop()
 cap.release()
->>>>>>> 52c3d7ea5ed405484f229b508704a40d14764e6c
+

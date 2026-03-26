@@ -1,5 +1,4 @@
 """
-<<<<<<< HEAD
 Calibration System - 9-Point Calibration for Gaze Mapping
 
 This module handles the calibration process to map raw gaze coordinates
@@ -15,7 +14,7 @@ model, saves calibration_data.json, and returns the trained model.
 
 import tkinter as tk
 import numpy as np
-<<<<<<< HEAD
+
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 import time
@@ -332,7 +331,7 @@ class CalibrationSystem:
             bool: True if calibrated
         """
         return self.calibration_data is not None
-=======
+
 import json
 import time
 import os
@@ -603,4 +602,4 @@ class CalibrationScreen:
         with open(CONFIG["CALIBRATION_FILE"], "w") as f:
             json.dump(data, f, indent=2)
         print(f"[Calibration] Saved to {CONFIG['CALIBRATION_FILE']}")
->>>>>>> 52c3d7ea5ed405484f229b508704a40d14764e6c
+

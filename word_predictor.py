@@ -1,5 +1,5 @@
 """
-<<<<<<< HEAD
+
 Word Predictor - Next-Word Prediction Engine
 
 This module provides intelligent word prediction based on typing history
@@ -16,7 +16,7 @@ import json
 import os
 import re
 from collections import defaultdict, Counter
-<<<<<<< HEAD
+
 import heapq
 
 # Configuration constants
@@ -341,7 +341,7 @@ def create_default_frequencies():
 
 # Initialize default frequencies on import
 create_default_frequencies()
-=======
+
 
 # ── CONFIG ──────────────────────────────────────────────────────────────────
 CONFIG = {
@@ -532,4 +532,4 @@ class WordPredictor:
                 json.dump(trimmed, f)
         except Exception as e:
             print(f"[WordPredictor] Could not save user words: {e}")
->>>>>>> 52c3d7ea5ed405484f229b508704a40d14764e6c
+
