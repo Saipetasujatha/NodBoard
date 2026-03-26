@@ -514,7 +514,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-=======
+
 import ctypes
 ctypes.windll.user32.SetProcessDPIAware()
 import cv2
